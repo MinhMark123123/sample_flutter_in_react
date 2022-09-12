@@ -18,32 +18,17 @@ buildscript {
             ndkVersion = "21.4.7075529"
         }
     }
-    // def toList(value) {
-    //     [value].flatten().findAll { it != null }
-    // }
-     def storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
-    // def pathJoin = "flutter_rn_example/build/host/outputs/repo" //replace with module path aar
-    // def pathSplits = "$rootDir".split("/")
-    // def pathSplitsList = toList(pathSplits)
-    // pathSplitsList.removeLast()
-    // pathSplitsList.removeLast()
-    // def finalRootFolder = pathSplitsList.join('/')
-    // def finalPath = "$finalRootFolder/$pathJoin"
-    // println finalPath
+    
+    def storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
 
     repositories {
         google()
         mavenCentral()
 
-        // maven {
-        //     url "$finalPath"
-        // }
         maven {
             url "$storageUrl/download.flutter.io"
         }
-        // maven {
-        //     url "$rootDir/../node_modules/flutter_module_rn_example/build/host/outputs/repo"
-        // }
+        
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
         }
