@@ -17,11 +17,14 @@ buildscript {
         }
     }
     def storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
+    def pathRepo = "$rootDir/../../../flutter_rn_example/build/host/outputs/repo"
+    println "-------> $pathRepo"
     repositories {
         google()
         mavenCentral()
+
         maven {
-            url "$rootDir/flutter_rn_example/build/host/outputs/repo"
+            url "$pathRepo"
         }
         maven {
             url "$storageUrl/download.flutter.io"
