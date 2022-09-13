@@ -69,7 +69,12 @@ const App= ()  => {
   const startFlutterScreen = () => {
     //Alert.alert('abc');
     //console.log('abc')
+    // AppFlutterModule.startFlutterActivity('', 0, (text) => {
+    //   console.log(text);
+    // });
+    console.log("-------------");
     AppFlutterModule.startFlutterActivity('', 0, (text) => {
+      console.log("-------------");
       console.log(text);
     });
   };

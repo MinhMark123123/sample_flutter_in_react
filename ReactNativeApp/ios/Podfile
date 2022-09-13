@@ -41,3 +41,6 @@ target 'ReactNativeApp' do
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
+
+flutterBuildMode = 'Release' # Profile, Release
+pod 'Flutter', :podspec => "../../flutter_rn_example/build/ios/framework/"+flutterBuildMode+"/Flutter.podspec"
