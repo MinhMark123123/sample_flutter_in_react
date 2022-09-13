@@ -42,5 +42,5 @@ target 'ReactNativeApp' do
   end
 end
 
-flutterBuildMode = 'Debug' # Profile, Release
+flutterBuildMode = 'Release' # Profile, Release
 pod 'Flutter', :podspec => "../../flutter_rn_example/build/ios/framework/"+flutterBuildMode+"/Flutter.podspec"

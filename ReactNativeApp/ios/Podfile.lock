@@ -400,7 +400,7 @@ DEPENDENCIES:
   - FlipperKit/FlipperKitReactPlugin (= 0.125.0)
   - FlipperKit/FlipperKitUserDefaultsPlugin (= 0.125.0)
   - FlipperKit/SKIOSNetworkPlugin (= 0.125.0)
-  - Flutter (from `../../flutter_rn_example/build/ios/framework/Debug/Flutter.podspec`)
+  - Flutter (from `../../flutter_rn_example/build/ios/framework/Release/Flutter.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
@@ -464,7 +464,7 @@ EXTERNAL SOURCES:
   FBReactNativeSpec:
     :path: "../node_modules/react-native/React/FBReactNativeSpec"
   Flutter:
-    :podspec: "../../flutter_rn_example/build/ios/framework/Debug/Flutter.podspec"
+    :podspec: "../../flutter_rn_example/build/ios/framework/Release/Flutter.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   hermes-engine:
@@ -541,7 +541,7 @@ SPEC CHECKSUMS:
   Flipper-PeerTalk: 116d8f857dc6ef55c7a5a75ea3ceaafe878aadc9
   Flipper-RSocket: d9d9ade67cbecf6ac10730304bf5607266dd2541
   FlipperKit: cbdee19bdd4e7f05472a66ce290f1b729ba3cb86
-  Flutter: b77cbdf5e1869fb88fb2e7bbcf0fb2c22a98e54c
+  Flutter: 4d311a777d4e380946ac9fb314e1a7d831d102e0
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 8e84f1284180801c1a1b241f443ba64f931ff561
@@ -578,6 +578,6 @@ SPEC CHECKSUMS:
   Yoga: 82c9e8f652789f67d98bed5aef9d6653f71b04a9
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 2b720d75f4547171a5b3d949fc4ebca2f81201d8
+PODFILE CHECKSUM: d11e3dd727f99806e36b9d5ee432802d9bb244e4
 
 COCOAPODS: 1.11.3

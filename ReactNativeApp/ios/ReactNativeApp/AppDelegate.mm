@@ -153,14 +153,14 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
     return nil;
 }
 
-- (void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event {
-    [super touchesBegan:touches withEvent:event];
-
-    // Pass status bar taps to key window Flutter rootViewController.
-    if (self.rootFlutterViewController != nil) {
-      //[self.rootFlutterViewController handleStatusBarTouches:event];
-    }
-}
+//- (void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event {
+//    [super touchesBegan:touches withEvent:event];
+//
+//    // Pass status bar taps to key window Flutter rootViewController.
+//    if (self.rootFlutterViewController != nil) {
+//      //[self.rootFlutterViewController handleStatusBarTouches:event];
+//    }
+//}
 
 - (void)application:(UIApplication*)application
 didRegisterUserNotificationSettings:(UIUserNotificationSettings*)notificationSettings {
